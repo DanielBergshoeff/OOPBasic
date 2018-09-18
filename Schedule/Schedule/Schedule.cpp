@@ -13,13 +13,21 @@
 int main()
 {
 	//Create class c
-	Class c = Class("G&I1-B");
+	Class c0 = Class("G&I1-A");
+	Class c1 = Class("G&I1-B");
 
-	//Create 10 students and add them to the class c
+	//Create 10 students and add them to the class c0
 	for (size_t i = 0; i < 10; i++)
 	{
 		Student s = Student("student", std::to_string(i));
-		c.addStudent(s);
+		c0.addStudent(s);
+	}
+
+	//Create 10 students and add them to the class c1
+	for (size_t i = 10; i < 20; i++)
+	{
+		Student s = Student("student", std::to_string(i));
+		c1.addStudent(s);
 	}
 
 	//Test whether the 10 students can be found in the c students array
