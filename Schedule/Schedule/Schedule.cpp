@@ -33,7 +33,7 @@ int main()
 	//Test whether the 10 students can be found in the c students array
 	for (size_t i = 0; i < 10; i++)
 	{
-		std::cout << c.getStudents.students[i].firstName << " " << c.getStudents.students[i].lastName << " has the ID: " << c.getStudents.students[i].id << std::endl;
+		std::cout << c0.getStudents()[i].firstName << " " << c0.getStudents()[i].lastName << " has the ID: " << c0.getStudents()[i].id << std::endl;
 	}
 
 	//Create teachers
@@ -47,7 +47,7 @@ int main()
 	Lesson l3 = Lesson("Databases", t0);
 
 
-	Day d = Day(15, 9, 2018, c);
+	Day d = Day(15, 9, 2018, c0);
 	d.addLessonToSlot(2, l1);
 	d.addLessonToSlot(3, l1);
 

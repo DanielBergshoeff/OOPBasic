@@ -26,10 +26,10 @@ bool Class::addStudent(Student s) {
 }
 
 bool Class::removeStudent(std::string studentFirstName, std::string studentLastName) {
-	for (size_t i = 0; i < nrOfStudents; i++)
+	for (int i = 0; i < nrOfStudents; i++)
 	{
 		if (students[i].firstName == studentFirstName && students[i].lastName == studentLastName) {
-			for (size_t j = i; j < nrOfStudents - 1; j++)
+			for (int j = i; j < nrOfStudents - 1; j++)
 			{
 				int arrLength = sizeof(students) / sizeof(*students);
 				if (j + 1 < arrLength)
@@ -42,13 +42,16 @@ bool Class::removeStudent(std::string studentFirstName, std::string studentLastN
 			}
 
 			nrOfStudents--;
+			return true;
 		}
 	}
+
+	return false;
 }
 
 Student* Class::getStudents() {
 	Student* relevantStudents = new Student[nrOfStudents];
-	for (size_t i = 0; i < nrOfStudents; i++)
+	for (int i = 0; i < nrOfStudents; i++)
 	{
 		relevantStudents[i] = students[i];
 	}
