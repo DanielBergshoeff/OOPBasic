@@ -2,7 +2,6 @@
 class Person
 {
 public:
-	static int studentId;
 	int id;
 	std::string firstName;
 	std::string lastName;
@@ -10,5 +9,8 @@ public:
 	Person();
 	Person(std::string pfirstName, std::string plastName);
 	~Person();
+
+private:
+	static int personId;
 };
 

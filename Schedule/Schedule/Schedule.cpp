@@ -37,8 +37,8 @@ int main()
 	}
 
 	//Create teachers
-	Teacher t0 = Teacher("Bert");
-	Teacher t1 = Teacher("Pat");
+	Teacher t0 = Teacher("Bert", "Bertson");
+	Teacher t1 = Teacher("Pat", "Patter");
 
 	//Create lessons with a teacher
 	Lesson l0 = Lesson("Programming", t0);

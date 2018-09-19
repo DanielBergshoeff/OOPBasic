@@ -2,11 +2,11 @@
 #include "Person.h"
 
 //This class holds information about the teacher
-class Teacher
+class Teacher : public Person
 {
 public:
+	using Person::Person;
 
-	Teacher();
 	~Teacher();
 };
 

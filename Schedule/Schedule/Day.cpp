@@ -18,7 +18,7 @@ std::string Day::getSlotInformation(int slot) {
 	timeMinutes -= timeHours * 60;
 
 	if (slotbools[slot] == true) {
-		return slots[slot].lesson.name + " by " + slots[slot].lesson.teacher.name + " at " + std::to_string(timeHours) + ":" + std::to_string(timeMinutes);
+		return slots[slot].lesson.name + " by " + slots[slot].lesson.teacher.firstName + " at " + std::to_string(timeHours) + ":" + std::to_string(timeMinutes);
 	}
 	else {
 		return "No lesson has been planned at " + std::to_string(timeHours) + ":" + std::to_string(timeMinutes) + "!";

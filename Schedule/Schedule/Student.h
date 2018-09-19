@@ -6,8 +6,7 @@
 class Student : public Person
 {
 public:
-
-	Student();
+	using Person::Person;
 	~Student();
 };
 
