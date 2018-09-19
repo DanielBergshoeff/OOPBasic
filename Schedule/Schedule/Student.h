@@ -1,16 +1,12 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include "Person.h"
 
-class Student
+class Student : public Person
 {
 public:
-	static int studentId;
-	int id;
-	std::string firstName;
-	std::string lastName;
 
-	Student(std::string pfirstName, std::string plastName);
 	Student();
 	~Student();
 };
