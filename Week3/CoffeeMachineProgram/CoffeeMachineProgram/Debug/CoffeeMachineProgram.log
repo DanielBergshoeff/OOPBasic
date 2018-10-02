@@ -1,0 +1,7 @@
+﻿  CoffeeMachineProgram.cpp
+  CoffeeMachine.cpp
+c:\users\daniel\documents\github\oopbasic\week3\coffeemachineprogram\coffeemachineprogram\coffeemachine.cpp(24): warning C4018: '<': signed/unsigned mismatch
+c:\users\daniel\documents\github\oopbasic\week3\coffeemachineprogram\coffeemachineprogram\coffeemachine.cpp(58): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  CoffeeMachineProgram.vcxproj -> C:\Users\Daniel\Documents\GitHub\OOPBasic\Week3\CoffeeMachineProgram\Debug\CoffeeMachineProgram.exe
+  CoffeeMachineProgram.vcxproj -> C:\Users\Daniel\Documents\GitHub\OOPBasic\Week3\CoffeeMachineProgram\Debug\CoffeeMachineProgram.pdb (Partial PDB)
