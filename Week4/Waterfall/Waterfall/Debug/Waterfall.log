@@ -1,0 +1,3 @@
+﻿  Waterfall.cpp
+d:\daniel\unitygames\oopbasic\week4\waterfall\waterfall\waterfall.cpp(26): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  Waterfall.vcxproj -> D:\Daniel\UnityGames\OOPBasic\Week4\Waterfall\Debug\Waterfall.exe
