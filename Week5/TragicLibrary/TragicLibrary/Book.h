@@ -6,7 +6,7 @@ class Book
 public:
 	std::string title;
 
-	Book();
+	Book(std::string t);
 	~Book();
 };
 

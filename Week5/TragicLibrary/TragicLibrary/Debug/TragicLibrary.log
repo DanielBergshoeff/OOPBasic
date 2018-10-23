@@ -1,2 +1,7 @@
-﻿  TragicLibrary.cpp
+﻿  Library.cpp
+d:\daniel\unitygames\oopbasic\week5\tragiclibrary\tragiclibrary\library.cpp(37): warning C4018: '<': signed/unsigned mismatch
+d:\daniel\unitygames\oopbasic\week5\tragiclibrary\tragiclibrary\library.cpp(53): warning C4018: '<': signed/unsigned mismatch
+d:\daniel\unitygames\oopbasic\week5\tragiclibrary\tragiclibrary\library.cpp(71): warning C4018: '<': signed/unsigned mismatch
+  TragicLibrary.cpp
+  Generating Code...
   TragicLibrary.vcxproj -> D:\Daniel\UnityGames\OOPBasic\Week5\TragicLibrary\Debug\TragicLibrary.exe
